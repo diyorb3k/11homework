@@ -44,6 +44,75 @@
 // );
 // console.log(sumOfPositiveNumbers);
 
+///7-masala/////
+// function separateEvenOdd(arr) {
+//     const evenNumbers = arr.filter(x => x % 2 === 0);
+//     const oddNumbers = arr.filter(x => x % 2 !== 0);
+//     return { evenNumbers, oddNumbers };
+
+// const array = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+
+// const { evenNumbers, oddNumbers } = separateEvenOdd(array);
+
+// console.log("Juft sonlar:", evenNumbers);
+// console.log("Toq sonlar:", oddNumbers);
+// 8-masalaa
+// const removeDuplicates = (array) => {
+//     return array.reduce((uniqueElements, currentElement) => {
+//       if (!uniqueElements.includes(currentElement)) {
+//         uniqueElements.push(currentElement);
+//       }
+//       return uniqueElements;
+//     }, []);
+//   };
+
+//   const arr = [1, 2, 3, 2, 4, 1, 5, 3, 6];
+//   const uniqueArr = removeDuplicates(arr);
+
+//   console.log(uniqueArr);
+
+// 10-masall
+// const products = [
+//   { id: 3, name: "Product C", price: 25, rating: 4.3, discount: 5 },
+//   { id: 1, name: "Product A", price: 30, rating: 4.5, discount: 10 },
+//   { id: 4, name: "Product D", price: 40, rating: 4.8, discount: 20 },
+//   { id: 2, name: "Product B", price: 20, rating: 4.7, discount: 15 },
+//   { id: 5, name: "Product E", price: 50, rating: 4.9, discount: 25 },
+// ];
+
+// const highestRatedProduct = products.sort((a, b) => b.rating - a.rating)[0];
+
+// console.log("Highest Rated Product:", highestRatedProduct);
+
+// 13-masall
+// const products = [
+//     { id: 1, name: 'Product A', price: 30, rating: 4.5, discount: 10 },
+//     { id: 2, name: 'Product B', price: 20, rating: 4.7, discount: 15 },
+//     { id: 3, name: 'Product C', price: 25, rating: 4.3, discount: 5 },
+//   ];
+
+//   const productNames = products.map(product => product.name);
+
+//   console.log(productNames);
+// 14-masalaaa
+// const products = [
+//     { id: 1, name: 'Product A', price: 30, rating: 4.5, discount: 10 },
+//     { id: 2, name: 'Product B', price: 20, rating: 4.7, discount: 15 },
+//     { id: 3, name: 'Product C', price: 25, rating: 4.3, discount: 5 },
+//     { id: 4, name: 'Product D', price: 40, rating: 4.8, discount: 20 },
+//     { id: 5, name: 'Product E', price: 50, rating: 4.9, discount: 25 },
+
+//   ];
+
+//   const findProductNameById = (products, id) => {
+//     const product = products.find(product => product.id === id);
+//     return product ? product.name : null;
+//   };
+
+//   const productName = findProductNameById(products, 5);
+
+//   console.log(productName);
+
 // 16-masala
 // 24 masalaa
 // let percent = +prompt("soni kiriting");
